@@ -37,13 +37,13 @@ public class CRUDController {
         log.warn("end");
     }
 
-    @GetMapping("/migratedb")
+    /*@GetMapping("/migratedb")
     void executeFlyway(@RequestHeader(name = "userId", required = true) String userId) {
         log.warn("start");
         log.debug(String.format("start userid= %s",userId));
         executeMigrate.executeFlyway(userId);
         log.warn("end");
-    }
+    }*/
 
     @PostMapping("/order")
     public @ResponseBody

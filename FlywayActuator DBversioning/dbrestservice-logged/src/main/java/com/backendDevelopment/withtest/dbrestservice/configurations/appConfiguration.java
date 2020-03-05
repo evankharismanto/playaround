@@ -1,4 +1,4 @@
-package com.backendDevelopment.withtest.dbrestservice;
+package com.backendDevelopment.withtest.dbrestservice.configurations;
 
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.configuration.FluentConfiguration;
